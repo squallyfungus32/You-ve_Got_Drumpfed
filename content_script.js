@@ -38,6 +38,8 @@ function handleText(textNode)
     text = text.replace(/MakeAmericaGreatAgain/gi, 'MakeAmericaDrumpfAgain');
     text = text.replace(/Hamburger/gi, 'Hamberder');
     text = text.replace(/hamburger/gi, 'hamberder');
+    text = text.replace(/burger/gi, 'berder');
+    text = text.replace(/Burger/gi, 'Berder');
     text = text.replace(/unprecedented/gi, 'unpresidented');
     text = text.replace(/Tim Cook/gi, 'Tim Apple');
     text = text.replace(/coffee/gi, 'covfefe');
