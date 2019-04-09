@@ -36,6 +36,13 @@ function handleText(textNode)
     text = text.replace(/Make America Great Again/gi, 'Make America Drumpf Again');
     text = text.replace(/make America great again/gi, 'make America Drumpf again');
     text = text.replace(/MakeAmericaGreatAgain/gi, 'MakeAmericaDrumpfAgain');
-
+    text = text.replace(/Hamburger/gi, 'Hamberder');
+    text = text.replace(/hamburger/gi, 'hamberder');
+    text = text.replace(/unprecedented/gi, 'unpresidented');
+    text = text.replace(/Tim Cook/gi, 'Tim Apple');
+    text = text.replace(/coffee/gi, 'covfefe');
+    text = text.replace(/coverage/gi, 'covfefe');
+    text = text.replace(/origins/gi, 'oranges');
+    text = text.replace(/big league/gi, 'bigly');
     textNode.nodeValue = text;
 }
