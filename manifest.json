@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "You've Got Drumpfed!",
     "version": "1.1",
-    "description": "Replaces words Donald Trump has mispelled or mispronounced. Based on extension which also replace instances of 'Trump' with 'Drumpf', inspired by Last Week Tonight.",
+    "description": "Replaces some words Donald Trump has mispelled in tweets or mispronounced. Based on the original extension which replaced instances of 'Trump' with 'Drumpf', inspired by Last Week Tonight.",
     "content_scripts":
     [
         {
@@ -10,6 +10,8 @@
             "js": ["content_script.js"],
             "runt_at": "document_end"
         }
-    ]
-
+    ],
+    "web_accessible_resources": [
+        "fonts/*.*"
+     ]
 }
