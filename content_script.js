@@ -61,8 +61,8 @@ function handleText(textNode)
     text = text.replace(/San Bernardino/gi, 'San Bernadino');
     text = text.replace(/Colombia/gi, 'Columbia');
     text = text.replace(/Theresa May/gi, 'Teresa May');        
-    text = text.replace(/The /gi, 'Thr '); 
-    text = text.replace(/has /gi, 'gas ');
+    text = text.replace(/The /, 'Thr '); 
+    text = text.replace(/has /, 'gas ');
 
     textNode.nodeValue = text;
 }
