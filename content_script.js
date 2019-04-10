@@ -46,8 +46,8 @@ function handleText(textNode)
     text = text.replace(/coverage/gi, 'covfefe');
     text = text.replace(/origins/gi, 'oranges');
     text = text.replace(/big league/gi, 'bigly');
-    text = text.replace(/big/gi, 'bigly');
-    text = text.replace(/Big/gi, 'Bigly');
+    text = text.replace(/big /gi, 'bigly ');
+    text = text.replace(/Big /gi, 'Bigly ');
     text = text.replace(/huge/gi, 'yuge');
     text = text.replace(/Huge/gi, 'Yuge');
     textNode.nodeValue = text;
